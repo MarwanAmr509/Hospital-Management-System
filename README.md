@@ -10,7 +10,6 @@ This project implements a Hospital Management System with a user-friendly Tkinte
 * **Patient Management:**
   * CRUD operations for patients.
   * Stores data including ID, name, demographics, and disease information.
-  * Allows for storing multiple phone numbers per patient.
 * **Room Management:**
   * CRUD operations for rooms.
   * Tracks room availability with unique identifiers and status indicators.
