@@ -21,15 +21,12 @@ This project implements a Hospital Management System with a user-friendly Tkinte
 * **Patient Room Assignment:**
   * Assigns patients to rooms, ensuring each patient has a designated room and rooms can be marked as occupied or empty.
 
-**Note:** Replace the bracketed text (e.g., CRUD operations) with the specific functionalities your code offers for each section.
 
 This system provides a comprehensive solution for hospital administration by managing staff, patients, appointments, rooms, and staff assignments.
 
 ### Dependencies
 
 * Tkinter (GUI library)
-* [Other libraries used in your project, if any]
-
 ### How to Run
 
 1. Install required dependencies (refer to documentation for each library).
@@ -37,4 +34,3 @@ This system provides a comprehensive solution for hospital administration by man
 3. Open the main Python file (e.g., main.py) in a code editor.
 4. Run the script.
 
-**Note:**  These are general instructions, you might need to adapt them based on your project setup.
