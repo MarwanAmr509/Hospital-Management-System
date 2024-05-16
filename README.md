@@ -35,9 +35,7 @@ Indexes are created on specific columns in tables to improve the performance of 
 * **idx_Helping_Doctor_ID & idx_Helping_Nurse_ID:** Optimizes queries filtering the "Helping" table by doctor or nurse ID.
 * **idx_Govers_Nurse_ID & idx_Govers_Room_Number:** Enhances query performance when searching the "Govers" table by nurse ID or room number.
 
-**Selection Queries:**
-
-**Largest Join Query:**
+**Selection Queries: (All queries in the report)**
 
 This query retrieves information about patients and their assigned staff (nurse and ward boy) based on room assignments. It utilizes LEFT JOINs to include patients even without assigned staff.
 
@@ -52,7 +50,7 @@ SELECT
    LEFT JOIN Govers ON Govers.Room_Number = Room.Room_Number
    LEFT JOIN Nurse ON Govers.Nurse_ID = Nurse.Nurse_ID 
    LEFT JOIN Ward_boy ON Ward_boy.Ward_boy_ID = Room.Ward_boy_ID;
-
+```
 
 This system provides a comprehensive solution for hospital administration by managing staff, patients, appointments, rooms, and staff assignments.
 
